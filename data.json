@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "Emp-1 Name",
+      "patterns": [
+        "Name",
+        "First",
+        "First Name"
+      ],
+      "responses": "John"
+    },
+    {
+      "tag": "Emp-1 Pan Card",
+      "patterns": [
+        "Pan Card",
+        "Pan",
+        "Card"
+      ],
+      "responses": "EFGH5678"
+    },
+    {
+      "tag": "Emp-1 Birthday",
+      "patterns": [
+        "Birthday",
+        "Date of Birth"
+      ],
+      "responses": "1st Jan 2021"
+    },
+    {
+      "tag": "Emp-1 Leaves",
+      "patterns": [
+        "Leaves Count",
+        "Holiday Count",
+        "Holiday",
+        "Leaves"
+      ],
+      "responses": "Do you want all types of leaves or anything specific?(Earned/Casual)"
+    },
+    {
+      "tag": "Emp-1 HrPolicy",
+      "patterns": [
+        "Policy",
+        "HR Policy",
+        "Policy Doubt"
+      ],
+      "responses": "Do you have a specific doubt or download the entire Policy in PDF?"
+    },
+    {
+      "tag": "Emp-1 Earned Leaves",
+      "patterns": [
+        "Earned Leaves",
+        "Earned"
+      ],
+      "responses": "2"
+    },
+    {
+      "tag": "Emp-1 Casual Leaves",
+      "patterns": [
+        "Casual Leaves",
+        "Casual"
+      ],
+      "responses": "3"
+    },
+    {
+      "tag": "Emp-1 Supervisor",
+      "patterns": [
+        "Supervisor Name",
+        "Working Under Name",
+        "Boss Name",
+        "Head Name",
+        "Supervisor",
+        "Boss",
+        "Working Under",
+        "Head"
+      ],
+      "responses": "Mr.X"
+    },
+    {
+      "tag": "Emp-1 Supervisor Contact",
+      "patterns": [
+        "Supervisor Contact",
+        "Working Under Contact",
+        "Boss Contact",
+        "Head Contact"
+      ],
+      "responses": "XX-XXXXXXXY"
+    },
+    {
+      "tag": "Emp-1 HrPolicy Holiday",
+      "patterns": [
+        "Policy Holiday",
+        "HR Policy Holiday",
+        "Policy Doubt Holiday"
+      ],
+      "responses": "Regular attendance is mandatory for the effective operation of the Company."
+    },
+    {
+      "tag": "Emp-1 HrPolicy Leaves",
+      "patterns": [
+        "Policy Leaves",
+        "HR Policy Leaves",
+        "Policy Doubt Leaves"
+      ],
+      "responses": "You may request your supervisor for leaves but only under certain circumstances will it be accepted."
+    },
+    {
+      "tag": "HR Policy Full",
+      "patterns": [
+        "Full Policy",
+        "Entire HR Policy",
+        "Policy Full"
+      ],
+      "responses": "Downloading"
+    }
+  ]
+}
