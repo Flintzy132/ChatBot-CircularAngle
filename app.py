@@ -7,6 +7,14 @@ from chat import get_response
 app = Flask(__name__)
 
 
+@app.route('/save_url', methods=['POST'])
+def save_url():
+    data = request.json
+    url = data.get('url')
+    print(f'The current URL is: {url}')
+    return '', 204
+
+
 @app.get("/")
 def index_get():
     return render_template("base.html")
@@ -14,7 +22,6 @@ def index_get():
 
 @app.post("/nudge")
 def nudge():
-    text = request.get_json().get("message")
     message = {"answer": "Try typing 'How many leaves do i have left?' or 'What is the HR policy for Leaves?'"}
     return jsonify(message)
 

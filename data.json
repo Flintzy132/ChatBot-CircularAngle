@@ -22,7 +22,8 @@
       "tag": "Emp-1 Birthday",
       "patterns": [
         "Birthday",
-        "Date of Birth"
+        "Date of Birth",
+        "Birth Day"
       ],
       "responses": "1st Jan 2021"
     },
@@ -41,7 +42,8 @@
       "patterns": [
         "Policy",
         "HR Policy",
-        "Policy Doubt"
+        "Policy Doubt",
+        "HR"
       ],
       "responses": "Do you have a specific doubt or download the entire Policy in PDF?"
     },
@@ -71,7 +73,8 @@
         "Supervisor",
         "Boss",
         "Working Under",
-        "Head"
+        "Head",
+        "Upper Management Details"
       ],
       "responses": "Mr.X"
     },
@@ -81,7 +84,9 @@
         "Supervisor Contact",
         "Working Under Contact",
         "Boss Contact",
-        "Head Contact"
+        "Head Contact",
+        "Contact for Upper Management",
+        "Upper Management"
       ],
       "responses": "XX-XXXXXXXY"
     },

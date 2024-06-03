@@ -10,6 +10,18 @@ class Chatbox {
         this.messages = [];
     }
 
+    getCurrentUrl() {
+            var url = window.location.href;
+            console.log("Sent")
+            fetch('http://127.0.0.1:5000/save_url', {
+               method: 'POST',
+               headers: {
+               'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({url: url})
+            });
+    }
+
     display() {
         const {openButton, chatBox, sendButton} = this.args;
 
@@ -49,6 +61,8 @@ class Chatbox {
             this.updateChatText(chatbox)
             textField.value = ''
 })
+
+
          } else {
             chatbox.classList.remove('chatbox--active')
         }
@@ -103,6 +117,6 @@ class Chatbox {
     }
 }
 
-
 const chatbox = new Chatbox();
 chatbox.display();
+chatbox.getCurrentUrl()

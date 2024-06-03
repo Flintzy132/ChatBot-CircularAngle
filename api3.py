@@ -1,4 +1,4 @@
-from flask import Flask, send_file, request
+from flask import Flask, request
 from requests.models import PreparedRequest
 
 app = Flask(__name__)

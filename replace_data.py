@@ -10,7 +10,7 @@ hrpolicy = requests.get('http://127.0.0.1:8000/download_pdf')
 api_data = response.json()
 
 
-def replace(og_data, r_data):
+def replace_data(og_data, r_data):
     og_data['intents'][0]['responses'] = r_data[0]['Name']
     og_data['intents'][1]['responses'] = r_data[1]['Pan Card']
     og_data['intents'][2]['responses'] = r_data[2]['Birthday']
@@ -22,8 +22,8 @@ def replace(og_data, r_data):
     og_data['intents'][10]['responses'] = r_data[4]['HR Policy'][1]['Leaves']
 
 
-replace(data, api_data)
-
+replace_data(data, api_data)
+print("Done")
 with open('data.json', 'w') as file:
     json.dump(data, file, indent=2)
 
