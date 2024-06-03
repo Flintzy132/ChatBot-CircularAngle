@@ -1,0 +1,326 @@
+{
+  "intents": [
+    {
+      "tag": "Emp-1 Name",
+      "patterns": [
+        "Name",
+        "First",
+        "First Name"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Pan Card",
+      "patterns": [
+        "Pan Card",
+        "Pan",
+        "Card"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Mobile Number",
+      "patterns": [
+        "Contact Number",
+        "Phone",
+        "Number",
+        "Phone Number",
+        "Contact No"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Email ID",
+      "patterns": [
+        "Email ID",
+        "Email",
+        "Mail",
+        "Mail ID"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 UAN",
+      "patterns": [
+        "Universal account number",
+        "Account Number",
+        "Account",
+        "Acoount No"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Aadhaar Number",
+      "patterns": [
+        "Aadhaar Number",
+        "Aadhaar No",
+        "Aadhaar",
+        "Aadhar no"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Gender",
+      "patterns": [
+        "Gender Details",
+        "Gender"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Education History",
+      "patterns": [
+        "Previous Education",
+        "Post Graduation",
+        "Graduation",
+        "Diploma",
+        "Education"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Position",
+      "patterns": [
+        "Position",
+        "Job Role",
+        "Role"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Reposting Manager",
+      "patterns": [
+        "Reporting Manager",
+        "report to",
+        "manager",
+        "supervisor"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Grade",
+      "patterns": [
+        "Grade",
+        "employee level",
+        "employee grade",
+        "level"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 AP",
+      "patterns": [
+        "Appraisal",
+        "Appraisal Document"
+      ],
+      "responses": "Please mention the year followed by Appraisal"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2015",
+      "patterns": [
+        "Appraisal 2015",
+        "Appraisal Document 2015",
+        "A 2015"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2016",
+      "patterns": [
+        "Appraisal 2016",
+        "Appraisal Document 2016",
+        "A 2016"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2017",
+      "patterns": [
+        "Appraisal 2017",
+        "Appraisal Document 2017",
+        "A 2017"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2018",
+      "patterns": [
+        "Appraisal 2018",
+        "Appraisal Document 2018",
+        "A 2018"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2019",
+      "patterns": [
+        "Appraisal 2019",
+        "Appraisal Document 2019",
+        "A 2019"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2020",
+      "patterns": [
+        "Appraisal 2020",
+        "Appraisal Document 2020",
+        "A 2020"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2021",
+      "patterns": [
+        "Appraisal 2021",
+        "Appraisal Document 2021",
+        "A 2021"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2022",
+      "patterns": [
+        "Appraisal 2022",
+        "Appraisal Document 2022",
+        "A 2022"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2023",
+      "patterns": [
+        "Appraisal 2023",
+        "Appraisal Document 2023",
+        "A 2023"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 SL",
+      "patterns": [
+        "Salary",
+        "Salary Document"
+      ],
+      "responses": "Please mention the year followed by Salary"
+    },
+    {
+      "tag": "Emp-1 Salary 2015",
+      "patterns": [
+        "Salary 2015",
+        "Salary Document 2015",
+        "A 2015"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Salary 2016",
+      "patterns": [
+        "Salary 2016",
+        "Salary Document 2016",
+        "A 2016"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Salary 2017",
+      "patterns": [
+        "Salary 2017",
+        "Salary Document 2017",
+        "A 2017"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Salary 2018",
+      "patterns": [
+        "Salary 2018",
+        "Salary Document 2018",
+        "A 2018"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Salary 2019",
+      "patterns": [
+        "Salary 2019",
+        "Salary Document 2019",
+        "A 2019"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Salary 2020",
+      "patterns": [
+        "Salary 2020",
+        "Salary Document 2020",
+        "A 2020"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Salary 2021",
+      "patterns": [
+        "Salary 2021",
+        "Salary Document 2021",
+        "A 2021"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Salary 2022",
+      "patterns": [
+        "Salary 2022",
+        "Salary Document 2022",
+        "A 2022"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Salary 2023",
+      "patterns": [
+        "Salary 2023",
+        "Salary Document 2023",
+        "A 2023"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 HrPolicy Holiday",
+      "patterns": [
+        "Policy Holiday",
+        "HR Policy Holiday",
+        "Policy Doubt Holiday"
+      ],
+      "responses": "Regular attendance is mandatory for the effective operation of the Company."
+    },
+    {
+      "tag": "Emp-1 HrPolicy Leaves",
+      "patterns": [
+        "Policy Leaves",
+        "HR Policy Leaves",
+        "Policy Doubt Leaves"
+      ],
+      "responses": "You may request your supervisor for leaves but only under certain circumstances will it be accepted."
+    },
+    {
+      "tag": "HR Policy Full",
+      "patterns": [
+        "Full Policy",
+        "Entire HR Policy",
+        "Policy Full"
+      ],
+      "responses": "Downloading"
+    },
+    {
+      "tag": "Emp-1 HrPolicy",
+      "patterns": [
+        "Policy",
+        "HR Policy",
+        "Policy Doubt",
+        "HR"
+      ],
+      "responses": "Do you have a specific doubt or download the entire Policy in PDF?"
+    }
+  ]
+}
