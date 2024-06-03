@@ -7,83 +7,284 @@
         "First",
         "First Name"
       ],
-      "responses": "John"
+      "responses": "VAIBHAV RAUT"
     },
     {
       "tag": "Emp-1 Pan Card",
       "patterns": [
         "Pan Card",
         "Pan",
-        "Card"
+        "Card",
+        "Pancard"
       ],
-      "responses": "EFGH5678"
+      "responses": "AIMPR3913M"
     },
     {
-      "tag": "Emp-1 Birthday",
+      "tag": "Emp-1 Mobile Number",
       "patterns": [
-        "Birthday",
-        "Date of Birth"
+        "Contact Number",
+        "Phone",
+        "Number",
+        "Phone Number",
+        "Contact No"
       ],
-      "responses": "1st Jan 2021"
+      "responses": "9920944277"
     },
     {
-      "tag": "Emp-1 Leaves",
+      "tag": "Emp-1 Email ID",
       "patterns": [
-        "Leaves Count",
-        "Holiday Count",
-        "Holiday",
-        "Leaves"
+        "Email ID",
+        "Email",
+        "Mail",
+        "Mail ID"
       ],
-      "responses": "Do you want all types of leaves or anything specific?(Earned/Casual)"
+      "responses": "ca_hr@circularangle.com"
     },
     {
-      "tag": "Emp-1 HrPolicy",
+      "tag": "Emp-1 UAN",
       "patterns": [
-        "Policy",
-        "HR Policy",
-        "Policy Doubt"
+        "Universal account number",
+        "Account Number",
+        "Account",
+        "Acoount No"
       ],
-      "responses": "Do you have a specific doubt or download the entire Policy in PDF?"
+      "responses": "100754952545"
     },
     {
-      "tag": "Emp-1 Earned Leaves",
+      "tag": "Emp-1 Aadhaar Number",
       "patterns": [
-        "Earned Leaves",
-        "Earned"
+        "Aadhaar Number",
+        "Aadhaar No",
+        "Aadhaar",
+        "Aadhar no"
       ],
-      "responses": "2"
+      "responses": "355561165259"
     },
     {
-      "tag": "Emp-1 Casual Leaves",
+      "tag": "Emp-1 Gender",
       "patterns": [
-        "Casual Leaves",
-        "Casual"
+        "Gender Details",
+        "Gender"
       ],
-      "responses": "3"
+      "responses": "Male"
     },
     {
-      "tag": "Emp-1 Supervisor",
+      "tag": "Emp-1 Education History",
       "patterns": [
-        "Supervisor Name",
-        "Working Under Name",
-        "Boss Name",
-        "Head Name",
-        "Supervisor",
-        "Boss",
-        "Working Under",
-        "Head"
+        "Previous Education",
+        "Post Graduation",
+        "Graduation",
+        "Diploma",
+        "Education"
       ],
-      "responses": "Mr.X"
+      "responses": "Sr.Secondary Cert. - UNIVERSITY OF MUMBAI\nPost Grad. Diploma - XLRI, JAMSHEDPUR\nPost Grad. Diploma - XLRI, JAMSHEDPUR\nBCom - UNIVERSITY OF MUMBAI"
     },
     {
-      "tag": "Emp-1 Supervisor Contact",
+      "tag": "Emp-1 Position",
       "patterns": [
-        "Supervisor Contact",
-        "Working Under Contact",
-        "Boss Contact",
-        "Head Contact"
+        "Position",
+        "Job Role",
+        "Role"
       ],
-      "responses": "XX-XXXXXXXY"
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Reposting Manager",
+      "patterns": [
+        "Reporting Manager",
+        "report to",
+        "manager",
+        "supervisor"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Grade",
+      "patterns": [
+        "Grade",
+        "employee level",
+        "employee grade",
+        "level"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 AP",
+      "patterns": [
+        "Appraisal",
+        "Appraisal Document"
+      ],
+      "responses": "Please mention the year followed by Appraisal"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2015",
+      "patterns": [
+        "Appraisal 2015",
+        "Appraisal Document 2015",
+        "A 2015"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2016",
+      "patterns": [
+        "Appraisal 2016",
+        "Appraisal Document 2016",
+        "A 2016"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1027/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2017",
+      "patterns": [
+        "Appraisal 2017",
+        "Appraisal Document 2017",
+        "A 2017"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1026/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2018",
+      "patterns": [
+        "Appraisal 2018",
+        "Appraisal Document 2018",
+        "A 2018"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1025/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2019",
+      "patterns": [
+        "Appraisal 2019",
+        "Appraisal Document 2019",
+        "A 2019"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1023/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2020",
+      "patterns": [
+        "Appraisal 2020",
+        "Appraisal Document 2020",
+        "A 2020"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1021/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2021",
+      "patterns": [
+        "Appraisal 2021",
+        "Appraisal Document 2021",
+        "A 2021"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1019/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2022",
+      "patterns": [
+        "Appraisal 2022",
+        "Appraisal Document 2022",
+        "A 2022"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1016/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Appraisal 2023",
+      "patterns": [
+        "Appraisal 2023",
+        "Appraisal Document 2023",
+        "A 2023"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1048/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 SL",
+      "patterns": [
+        "Salary",
+        "Salary Document"
+      ],
+      "responses": "Please mention the year followed by Salary"
+    },
+    {
+      "tag": "Emp-1 Salary 2015",
+      "patterns": [
+        "Salary 2015",
+        "Salary Document 2015",
+        "A 2015"
+      ],
+      "responses": "Not available"
+    },
+    {
+      "tag": "Emp-1 Salary 2016",
+      "patterns": [
+        "Salary 2016",
+        "Salary Document 2016",
+        "A 2016"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1034/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Salary 2017",
+      "patterns": [
+        "Salary 2017",
+        "Salary Document 2017",
+        "A 2017"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1035/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Salary 2018",
+      "patterns": [
+        "Salary 2018",
+        "Salary Document 2018",
+        "A 2018"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1036/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Salary 2019",
+      "patterns": [
+        "Salary 2019",
+        "Salary Document 2019",
+        "A 2019"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1037/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Salary 2020",
+      "patterns": [
+        "Salary 2020",
+        "Salary Document 2020",
+        "A 2020"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1039/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Salary 2021",
+      "patterns": [
+        "Salary 2021",
+        "Salary Document 2021",
+        "A 2021"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1041/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Salary 2022",
+      "patterns": [
+        "Salary 2022",
+        "Salary Document 2022",
+        "A 2022"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1043/97260738.pdf"
+    },
+    {
+      "tag": "Emp-1 Salary 2023",
+      "patterns": [
+        "Salary 2023",
+        "Salary Document 2023",
+        "A 2023"
+      ],
+      "responses": "Visit : http://127.0.0.1:8000/xmlup/Documents/MyProfileDocuments/97260738/1047/97260738.pdf"
     },
     {
       "tag": "Emp-1 HrPolicy Holiday",
@@ -111,6 +312,16 @@
         "Policy Full"
       ],
       "responses": "Downloading"
+    },
+    {
+      "tag": "Emp-1 HrPolicy",
+      "patterns": [
+        "Policy",
+        "HR Policy",
+        "Policy Doubt",
+        "HR"
+      ],
+      "responses": "Do you have a specific doubt or download the entire Policy in PDF?"
     }
   ]
 }

@@ -1,32 +1,18 @@
-from flask import Flask, jsonify
+import os
 
-app = Flask(__name__)
+import requests
+import json
 
+url = "https://weatworktest.mahyco.com/webapi/api/MyProfile/GetMyProfileData"
+headers = {
+    "Authorization": "bearer Q_QCrVHc-lsk_TgYuDkkSeMfEY57COGdwlxRAcDWBN0h4pfuS-6hGe5JBh0zlSKYLNqsl6gLNrzyK_F_-dl1a_wWTBGn0B5nyafx4ewWKL6noOacc3Gy_ozXnAYlpPTrvlWDpg4Ck6siVh4n9oyii9ee5MjgqM2lv7ijeCY7xB0SwNDeixsYvH_J8PAZGGux2gX5kMLZ8mlu4uBUFVzDwQ"}
+data = {"loginDetails": {
+    "LoginEmpID": "97260738",
+    "LoginEmpCompanyCodeNo": "4000"
+}
+}
 
-@app.route("/get-user/")
-def get_user():
-    user_data = [{"Name": "John"},
-                 {"Pan Card": "EFGH5678"},
-                 {"Birthday": "1st Jan 2021"},
-                 {"Leave Balance": [{
-                     "Earned Leave": "2"
-                 }, {
-                     "Casual Leave": "3"
-                 }]},
-                 {"HR Policy": [{
-                     "Holiday": "Regular attendance is mandatory for the effective operation of the Company."
-                 }, {
-                     "Leaves": "You may request your supervisor for leaves but only under certain circumstances will it be accepted."
-                 }]},
-                 {"Supervisor": [{
-                     "Name": "Mr.X"
-                 }, {
-                     "Contact": "XX-XXXXXXXY"
-                 }]}
-                 ]
+response = requests.post(url, headers=headers, json=data)
 
-    return jsonify(user_data), 200
-
-
-if __name__ == "__main__":
-    app.run(debug=True, port=8080)
+with open('intents.json', 'w') as file:
+    json.dump(response.json(), file, indent=2)
